@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#body {font-family: Helvetica;
+font-size: 22px;
+color: seashell;
+background-color: black;
+opacity: 0.9;
+text-align: center;
+}
+
+/* header */
+
+header {
+    margin: 0;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgh {
+    display: block;
+    height: 50px;
+    margin: 10px; 
+}
+
+.ulh {
+    display: flex;
+    align-items: center;
+}
+
+.lih {
+    display: inline;
+    padding: 10px;
+    text-decoration: underline;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    font-weight: bold;
+}
+
+/* section 1 */
+
+.s1 {
+    padding: 69px;
+    position: relative;
+    text-align: center;
+}
+
+.s1img {
+    height: 700px;
+}
+
+.ds1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+    background-color: black;
+    padding: 10px;
+}
+
+.mission {
+    padding: 10px;
+    color: seashell;
+}
+
+/* section 2 */
+
+.s2 {
+    width: 1000px;
+    text-align: center;
+    margin: auto;
+}
+
+.ds2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.s2 h2, h4{
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    color: seashell;
+}
+.s2img {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+}
+
+.s2p {
+    padding: 10px;
+}
+
+/* section 3 */
+
+.s3 {
+    text-align: center;
+    position: relative;
+}
+
+.s3d {
+    position: absolute;
+    width: 100%;
+    bottom: 45%;
+    line-height: 50px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ds3 {
+    margin: 15px 20px;
+    opacity: 1;
+    width: 300px;
+    background-color: black;
+}
+
+.s3i {
+    height: 500px;
+    width: 100%;
+    padding: 0px 30px;
+    margin: 20px auto;
+}
+
+.s3h4 {
+    padding: 10px;
+}
+
+/* footer */
+
+footer {
+    height: 200px;
+    text-align: center;
+}
+
+.foot {
+    padding: 10px;
+    color: seashell;
+}
+
+/* aside */
+
+aside {
+    text-align: left;
+}
+
+.aside {
+    margin-left: 20px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
